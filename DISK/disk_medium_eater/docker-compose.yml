@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  disk_eater_1:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_1
+  disk_eater_2:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_2
+  disk_eater_3:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_3
+  disk_eater_4:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_4
+  disk_eater_5:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_5
+  disk_eater_6:
+    image: mauriciohc/disk-eater
+    container_name: disk_cont_6

@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  cpu_eater_1:
+    image: mauriciohc/cpu-eater
+    container_name: cpu_cont_1
+  cpu_eater_2:
+    image: mauriciohc/cpu-eater
+    container_name: cpu_cont_2
+  cpu_eater_3:
+    image: mauriciohc/cpu-eater
+    container_name: cpu_cont_3

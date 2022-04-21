@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  mem_eater_1:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_1
+  mem_eater_2:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_2
+  mem_eater_3:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_3
+  mem_eater_4:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_4
+  mem_eater_5:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_5
+  mem_eater_6:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_6
+  mem_eater_7:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_7
+  mem_eater_8:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_8
+  mem_eater_9:
+    image: mauriciohc/mem-eater
+    container_name: mem_cont_9

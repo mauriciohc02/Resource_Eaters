@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  cpu_eater_1:
+    image: mauriciohc/multi-eater
+    container_name: cpu_cont_1
+    environment:
+      - EATER=cpu
+  cpu_eater_2:
+    image: mauriciohc/multi-eater
+    container_name: cpu_cont_2
+    environment:
+      - EATER=cpu
+  disk_eater_1:
+    image: mauriciohc/multi-eater
+    container_name: disk_cont_1
+    environment:
+      - EATER=disk
+  disk_eater_2:
+    image: mauriciohc/multi-eater
+    container_name: disk_cont_2
+    environment:
+      - EATER=disk
+  mem_eater_1:
+    image: mauriciohc/multi-eater
+    container_name: mem_cont_1
+    environment:
+      - EATER=mem
+  mem_eater_2:
+    image: mauriciohc/multi-eater
+    container_name: mem_cont_2
+    environment:
+      - EATER=mem
+  net_eater_1:
+    image: mauriciohc/multi-eater
+    container_name: net_cont_1
+    environment:
+      - EATER=net
+  net_eater_2:
+    image: mauriciohc/multi-eater
+    container_name: net_cont_2
+    environment:
+      - EATER=net

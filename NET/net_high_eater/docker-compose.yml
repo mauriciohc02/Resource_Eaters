@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  net_eater_1:
+    image: mauriciohc/net-eater
+    container_name: net_cont_1
+  net_eater_2:
+    image: mauriciohc/net-eater
+    container_name: net_cont_2
+  net_eater_3:
+    image: mauriciohc/net-eater
+    container_name: net_cont_3
+  net_eater_4:
+    image: mauriciohc/net-eater
+    container_name: net_cont_4
+  net_eater_5:
+    image: mauriciohc/net-eater
+    container_name: net_cont_5
+  net_eater_6:
+    image: mauriciohc/net-eater
+    container_name: net_cont_6
+  net_eater_7:
+    image: mauriciohc/net-eater
+    container_name: net_cont_7
+  net_eater_8:
+    image: mauriciohc/net-eater
+    container_name: net_cont_8
+  net_eater_9:
+    image: mauriciohc/net-eater
+    container_name: net_cont_9
